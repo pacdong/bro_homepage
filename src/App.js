@@ -27,9 +27,11 @@ function App() {
       <GlobalStyled />
       <Header />
       <BrowserRouter>
+        라우트 전
         <Routes />
+        라우트 후
       </BrowserRouter>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
