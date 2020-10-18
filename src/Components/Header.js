@@ -4,7 +4,7 @@ import colors from "../Color/colors";
 
 const Background = styled.div`
   width: 100%;
-  background-color: ${colors.darkGray};
+  background-color: ${colors.gray};
   display: flex;
   flex-direction: row;
   padding-top: 40px;
@@ -12,7 +12,7 @@ const Background = styled.div`
   top: 0px;
   position: relative;
   border: 0px solid ${colors.black};
-  border-bottom-width: 2px;
+  box-shadow: 0px 5px 20px #00000026;
 `;
 const Wrapper = styled.div``;
 const Box = styled.button`
@@ -22,12 +22,12 @@ const Box = styled.button`
   cursor: pointer;
   margin-left: 20px;
   font-size: 1rem;
-  color: ${colors.lightGray};
+  color: ${colors.headerFontColor};
   &:hover {
-    color: ${colors.lightGreen};
+    color: ${colors.headerTintColor};
   }
   &:focus {
-    color: ${colors.lightGreen};
+    color: ${colors.headerTintColor};
   }
   transition: 0.5s;
 `;

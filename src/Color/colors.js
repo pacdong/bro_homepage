@@ -6,4 +6,7 @@ export default {
   lightGreen: "#61D25B",
   white: "#FFFFFF",
   black: "#2D3038",
+  headerFontColor: "#A5A5A5",
+  headerTintColor: "#61D25B",
+  shadowColor: "#353B4E",
 };

@@ -6,7 +6,7 @@ import Home from "./Routes/Home";
 const Routes = () => (
   <Switch>
     <Route exact path="/">
-      <Redirect to="/home" componet={Home} />
+      <Redirect to="/Home" />
     </Route>
     <Route exact path="/Home" componet={Home} />
     <Route exact path="/Contents" componet={Contents} />

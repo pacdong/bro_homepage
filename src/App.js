@@ -5,6 +5,8 @@ import reset from "styled-reset";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Routes from "./Routes";
+import styled from "styled-components";
+import Home from "./Routes/Home";
 
 const GlobalStyled = createGlobalStyle`
 ${reset};
@@ -25,11 +27,10 @@ function App() {
   return (
     <>
       <GlobalStyled />
-      <Header />
       <BrowserRouter>
-        라우트 전
-        <Routes />
-        라우트 후
+        <Header />
+        {/* <Routes /> */}
+        <Home />
       </BrowserRouter>
       {/* <Footer /> */}
     </>
