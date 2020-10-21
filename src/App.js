@@ -12,7 +12,7 @@ const GlobalStyled = createGlobalStyle`
 ${reset};
   * {
   transition: 0.5s;
-  }
+  } 
   body {
       background-color: white;
       font-size: 16px;
@@ -24,8 +24,8 @@ ${reset};
 `;
 
 const View = styled.div`
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 `;
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
         <Header />
         {/* <Routes /> */}
         <View>
-         <Home />
+          <Home />
         </View>
       </BrowserRouter>
       {/* <Footer /> */}
