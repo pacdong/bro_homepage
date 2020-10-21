@@ -23,6 +23,11 @@ ${reset};
   }
 `;
 
+const View = styled.div`
+width: 100%;
+height: 100%;
+`;
+
 function App() {
   return (
     <>
@@ -30,7 +35,9 @@ function App() {
       <BrowserRouter>
         <Header />
         {/* <Routes /> */}
-        <Home />
+        <View>
+         <Home />
+        </View>
       </BrowserRouter>
       {/* <Footer /> */}
     </>

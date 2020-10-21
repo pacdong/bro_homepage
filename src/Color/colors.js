@@ -9,4 +9,7 @@ export default {
   headerFontColor: "#A5A5A5",
   headerTintColor: "#61D25B",
   shadowColor: "#353B4E",
+  skillBackgroundColor: "#444751",
+  chartTitleColor: "#C0C7D4",
+  chartTintColor: "#61D25B",
 };
