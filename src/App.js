@@ -15,7 +15,6 @@ ${reset};
   } 
   body {
       background-color: white;
-      font-size: 16px;
   }
   a {
       color: black;
